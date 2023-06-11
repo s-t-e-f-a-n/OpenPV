@@ -1,5 +1,5 @@
 # OpenPV
-Comprehensive photovoltaics (600 W) with battery based engergy spreading, visualization and control.
+Comprehensive photovoltaics system (600 W) with battery based energy spreading, control and visualization.
 
 The complete system consists of the following subsystems:
 * 600 W photovoltaic system: two 400 W panels, one Hoymiles HM-600 inverter
