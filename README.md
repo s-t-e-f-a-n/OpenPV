@@ -19,6 +19,8 @@ I started step by step with 1. - 4. and then decided to extend the little photov
 * One dual-DC/single AC 600 W inverter [Hoymiles HM-600](https://github.com/s-t-e-f-a-n/OpenPV/files/11762369/hm600.pdf)
 <img src="https://github.com/s-t-e-f-a-n/OpenPV/assets/16215726/3231166a-8a3b-495a-b62a-e01aefce2be1" width="200">
 
+I mounted some bracket stands 
+
 # OpenDTU
 As the Hoymiles HM-600 inverter is not equipped with a general WiFi interfacee but instead with a proprietrary wireless interface you'd need for remote access to the inverter a so called Data Transer Unit (DTU) from Hoymiles which you'd get on the market for appr. 50 € - 100 €. It only works via a Hoymiles server where you'd have to register etc.
 
