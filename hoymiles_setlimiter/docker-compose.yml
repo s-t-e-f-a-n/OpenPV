@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  hoylimit:
+    image: hoylimit:latest
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    hostname: hoylimit
+    restart: always
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+#    healthcheck:
+#      test: ["CMD-SHELL", "mosquitto_sub -t '$$SYS/#' -C 1 | grep -v Error || exit 1"]
+#      test: "mosquitto_sub -d -t '$SYS/#' -C 1 | grep -v Error || exit 1"
+#      interval: 15s
+#      timeout: 5s
+#      retries: 3
